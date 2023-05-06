@@ -12,8 +12,6 @@ from .custom import model_dict, cart, cart_count, update_total
 
 
 # Create your views here.
-def bannertest(request):
-    return render(request, 'orders/bannertest.html')
 
 def index(request):
     if not request.user.is_authenticated:

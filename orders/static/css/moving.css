@@ -1,9 +1,7 @@
 body {
   background: transparent;
-  padding-top: 5em;
   display: block;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-wrap: flex;
   justify-content: center;
 }
 
@@ -11,12 +9,12 @@ body {
   color: #fff;
   font-family: monospace;
   overflow: hidden; 
-  border-right: .15em solid orange; 
+  border-right: 0 solid orange; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
-    typing 5.5s steps(30, end),
+    typing 10s steps(40, end),
     blink-caret .5s step-end infinite;
 }
 

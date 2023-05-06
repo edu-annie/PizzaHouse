@@ -20,7 +20,6 @@ urlpatterns = [
     path('cancel', views.cancel_order, name='cancel'),
     path('emptycart', views.empty_cart, name='emptycart'),
     path('test', views.test_view, name='test'),
-    path('bannertest', views.bannertest, name='bannertest'), 
 ]  
 
 
